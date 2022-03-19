@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.revature.jetcomposefirstsample">
 
-
-    <uses-permission android:name="android.permission.INTERNET"/><!--very important-->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,29 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetComposeFirstSample">
         <activity
-            android:name=".WhoopThistheLastOne"
+            android:name=".MTBox"
             android:exported="false"
-            android:label="@string/title_activity_whoop_thisthe_last_one"
-            android:theme="@style/Theme.JetComposeFirstSample" />
-        <activity
-            android:name=".LastActivity"
-            android:exported="false"
-            android:label="@string/title_activity_last"
-            android:theme="@style/Theme.JetComposeFirstSample" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.JetComposeFirstSample" />
-<!--        <activity-->
-<!--            android:name=".ui.theme.Activity2"-->
-<!--            android:exported="false"-->
-<!--            android:label="@string/title_activity_2"-->
-<!--            android:theme="@style/Theme.JetComposeFirstSample" />-->
-        <activity
-            android:name=".Activity3"
-            android:exported="false"
-            android:label="@string/title_activity_3"
+            android:label="@string/title_activity_mtbox"
             android:theme="@style/Theme.JetComposeFirstSample" />
         <activity
             android:name=".MainActivity"

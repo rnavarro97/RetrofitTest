@@ -5,4 +5,8 @@
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_last">LastActivity</string>
     <string name="title_activity_whoop_thisthe_last_one">WhoopThistheLastOne</string>
+    <string name="title_activity_pdf_test">pdfTest</string>
+    <string name="title_activity_emp_t">empT</string>
+    <string name="title_activity_mans_fest_desty">MansFestDesty</string>
+    <string name="title_activity_mtbox">MTBox</string>
 </resources>
