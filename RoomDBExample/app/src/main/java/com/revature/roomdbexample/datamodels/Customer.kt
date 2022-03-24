@@ -20,5 +20,5 @@ data class Customer(
     val gender: String? = null,
 
     @ColumnInfo(name = "email_id")
-    val emailID: String? = null,
+    val emailId: String? = null,
 )

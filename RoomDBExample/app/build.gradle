@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id "kotlin-kapt"
 }
 
 android {
@@ -63,7 +64,7 @@ dependencies {
     annotationProcessor "androidx.room:room-compiler:$roomVersion"
 
     // To use Kotlin annotation processing tool    /*kapt*/
-    /*kapt*/ "androidx.room:room-compiler:$roomVersion"
+    kapt ("androidx.room:room-compiler:$roomVersion")
     // To use Kotlin Symbolic Processing    /*ksp*/
     /*ksp*/ "androidx.room:room-compiler:$roomVersion"
 
@@ -84,4 +85,9 @@ dependencies {
 
     // optional - Paging 3 Integration
     implementation "androidx.room:room-paging:2.5.0-alpha01"
+
+    implementation "androidx.compose.runtime:runtime-livedata:$compose_version"
+
+    kapt annotationProcessor("androidx.room:room-compiler:$roomVersion")
+
 }
